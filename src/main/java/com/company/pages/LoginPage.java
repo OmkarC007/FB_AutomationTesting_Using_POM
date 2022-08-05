@@ -9,13 +9,13 @@ import com.company.base.TestBase;
 public class LoginPage extends TestBase{
 
 	//page factory - or:
-	@FindBy(name = "email")
+	@FindBy(xpath = "//input[@id='email']")
 	WebElement username;
 	
 	@FindBy(name = "pass")
 	WebElement password;
 	
-	@FindBy(xpath = "//input[@id='email']")
+	@FindBy(name = "login")
 	WebElement loginBtn;
 	
 	@FindBy(xpath = "//a[text()='Create New Account']")

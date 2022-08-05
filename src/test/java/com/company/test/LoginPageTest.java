@@ -1,5 +1,6 @@
 package com.company.test;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -8,7 +9,6 @@ import com.company.base.TestBase;
 import com.company.pages.HomePage;
 import com.company.pages.LoginPage;
 
-import junit.framework.Assert;
 
 public class LoginPageTest extends TestBase{
 	LoginPage loginPage;
@@ -36,11 +36,6 @@ public class LoginPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		driver.quit();
-	}
-	
-	
-	
-	
-	
+		//driver.quit();
+	}	
 }
