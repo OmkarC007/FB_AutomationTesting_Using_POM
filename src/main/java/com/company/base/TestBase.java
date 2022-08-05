@@ -16,7 +16,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 	
-	public TestBase() {
+	public TestBase() { 
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream("C:\\Users\\omkar\\eclipse-workspace"
@@ -26,7 +26,7 @@ public class TestBase {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
-			e.printStackTrace();
+			e.printStackTrace(); 
 		}
 	}
 	
