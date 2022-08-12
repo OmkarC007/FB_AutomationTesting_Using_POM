@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.company.test.HomePageTest">
+      <class name="com.company.test.ProfilePageTest">
         <methods>
-          <include name="verifyUserNameTest"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="checkProfilePageTest"/>
+          <include name="editProfileTest"/>
+          <include name="tearDown"/>
+          <include name="seeAllPhotosTest"/>
+          <include name="checkBioDataEntryTest"/>
         </methods>
-      </class> <!-- com.company.test.HomePageTest -->
+      </class> <!-- com.company.test.ProfilePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

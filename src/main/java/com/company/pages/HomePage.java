@@ -20,10 +20,13 @@ public class HomePage extends TestBase{
 
 	@FindBy(xpath = "//a[contains(@href,'/groups/')]")
 	WebElement groupsLink;
+	
+	@FindBy(xpath = "//span[text() = 'Omkar Chikane']")
+	WebElement profileLink;
 
-	// Initializing the Page Objects:
+	// Initializing the Page Objects: 
 	public HomePage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this); 
 	}
 
 	public String verifyHomePageTitle() {
@@ -39,13 +42,18 @@ public class HomePage extends TestBase{
 		return new HomePage();
 	}
 
-	public GroupsPage ClickOnGroupsLink() {
+	public ProfilePage ClickOnGroupsLink() {
 		groupsLink.click();
-		return new GroupsPage();
+		return new ProfilePage();
 	}
 
 	public HomePage clickOnNotificationsLink() {
 		NotificationsLink.click();
 		return new HomePage();
+	}
+
+	public ProfilePage ClickOnprofileLink() {
+		profileLink.click();
+		return null;
 	}
 }

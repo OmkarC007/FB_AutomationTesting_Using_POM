@@ -1,0 +1,15 @@
+2022-08-10 23:00:40 INFO  LoginPageTest:38 - login null
+  2022-08-11 08:25:37 INFO  LoginPageTest:38 - login null
+  2022-08-11 08:26:00 INFO  LoginPageTest:45 - login com.company.pages.HomePage@2d35442b
+  2022-08-11 08:37:31 INFO  LoginPageTest:38 - login null
+  2022-08-11 08:38:00 INFO  LoginPageTest:45 - login com.company.pages.HomePage@27f9e982
+  2022-08-11 09:54:17 INFO  LoginPageTest:38 - login null
+  2022-08-11 09:54:36 INFO  LoginPageTest:45 - login com.company.pages.HomePage@27f9e982
+  2022-08-12 00:11:06 INFO  LoginPageTest:38 - login null
+  2022-08-12 00:49:04 INFO  LoginPageTest:38 - login null
+  2022-08-12 00:49:38 INFO  LoginPageTest:45 - login com.company.pages.HomePage@2d35442b
+  2022-08-12 01:27:19 INFO  LoginPageTest:38 - login null
+  2022-08-12 01:27:38 INFO  LoginPageTest:45 - login com.company.pages.HomePage@27f9e982
+  2022-08-12 12:01:09 INFO  LoginPageTest:38 - login null
+  2022-08-12 12:01:34 INFO  LoginPageTest:45 - login com.company.pages.HomePage@566d0c69
+  
