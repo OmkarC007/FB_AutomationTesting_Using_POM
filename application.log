@@ -12,4 +12,6 @@
   2022-08-12 01:27:38 INFO  LoginPageTest:45 - login com.company.pages.HomePage@27f9e982
   2022-08-12 12:01:09 INFO  LoginPageTest:38 - login null
   2022-08-12 12:01:34 INFO  LoginPageTest:45 - login com.company.pages.HomePage@566d0c69
+  2022-08-12 17:30:18 INFO  LoginPageTest:38 - login null
+  2022-08-12 17:31:48 INFO  LoginPageTest:45 - login com.company.pages.HomePage@782be4eb
   

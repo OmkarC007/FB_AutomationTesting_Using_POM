@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.company.EstentReportListner.ExtentReporterNg"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.company.test.HomePageTest">
         <methods>
           <include name="verifyUserNameTest"/>
           <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.company.test.HomePageTest -->
-      <class name="com.company.test.ProfilePageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="seeAllPhotosTest"/>
-          <include name="checkBioDataEntryTest"/>
-        </methods>
-      </class> <!-- com.company.test.ProfilePageTest -->
       <class name="com.company.test.SignUpPageTest">
         <methods>
           <include name="tearDown"/>
@@ -28,6 +18,15 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.company.test.SignUpPageTest -->
+      <class name="com.company.test.ProfilePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkProfilePageTest"/>
+          <include name="tearDown"/>
+          <include name="seeAllPhotosTest"/>
+          <include name="checkBioDataEntryTest"/>
+        </methods>
+      </class> <!-- com.company.test.ProfilePageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
