@@ -23,7 +23,7 @@ public class LoginPage extends TestBase{
 	
 	//Initialize page objects
 	public LoginPage() {
-		PageFactory.initElements(driver, this);		
+		PageFactory.initElements(driver, this);	 	
 	}
 	//Actions
 	public String validatLoginPageTitle() {

@@ -26,7 +26,7 @@ public class SignupPage extends TestBase{
 	@FindBy(id = "password_step_input")
 	WebElement reg_passwd__;
 
-	@FindBy(name = "birthday_day")
+	@FindBy(name = "birthday_day") 
 	WebElement birthday_day;
 
 	@FindBy(name = "birthday_month")

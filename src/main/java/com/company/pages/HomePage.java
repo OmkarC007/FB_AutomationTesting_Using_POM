@@ -25,7 +25,7 @@ public class HomePage extends TestBase{
 	WebElement profileLink;
 
 	// Initializing the Page Objects: 
-	public HomePage() {
+	public HomePage() { 
 		PageFactory.initElements(driver, this); 
 	}
 

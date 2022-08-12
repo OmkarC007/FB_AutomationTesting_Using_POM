@@ -23,7 +23,7 @@ public class ProfilePage extends TestBase{
 	// Initializing the page objects - constructor of HomePage
 	public ProfilePage() {
 		PageFactory.initElements(driver, this);
-	}
+	} 
 
 	public void addProfile() {
 		profileLink.click();

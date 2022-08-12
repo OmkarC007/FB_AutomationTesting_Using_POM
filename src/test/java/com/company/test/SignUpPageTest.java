@@ -17,7 +17,7 @@ public class SignUpPageTest extends TestBase{
 
 	public SignUpPageTest() {
 		super();
-	}
+	} 
 
 	@BeforeMethod
 	public void setUp() {

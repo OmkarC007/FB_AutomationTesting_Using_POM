@@ -17,7 +17,7 @@ public class ProfilePageTest extends TestBase {
 	TestUtil testUtil;
 	ProfilePage profilePage;
 
-	public ProfilePageTest() {
+	public ProfilePageTest() { 
 		super();
 	}
 

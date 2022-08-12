@@ -16,7 +16,7 @@ public class ExcelDataProviderTest {
 	static WebDriver driver ;
 	static Properties prop;
 	
-	@BeforeTest
+	@BeforeTest 
 	public void setUpTest() {
 		//String projectPath = System.getProperty("user.dir");
 		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-64bit\\geckodriver.exe");

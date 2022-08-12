@@ -11,4 +11,4 @@ public class ExcelUtilDemo {
 		excel.getCellDataString(0, 0);
 		excel.getCellDataNumber(1, 1); 
 	}
-}
+} 

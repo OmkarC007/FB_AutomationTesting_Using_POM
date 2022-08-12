@@ -20,7 +20,7 @@ import com.company.util.TestUtil;
 public class TestBase {
 	
 	public static WebDriver driver;
-	public static Properties prop;
+	public static Properties prop; 
 	
 	public static Logger log = Logger.getLogger(TestBase.class);
 	

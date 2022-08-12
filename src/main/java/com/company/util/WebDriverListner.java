@@ -9,7 +9,7 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 public class WebDriverListner  implements WebDriverEventListener{
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
-		System.out.println("Before navigating to: '" + url + "'");
+		System.out.println("Before navigating to: '" + url + "'"); 
 	}
 
 	public void afterNavigateTo(String url, WebDriver driver) {
